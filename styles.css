@@ -112,4 +112,7 @@ svg {
     align-items: center;
     justify-content: center;
   }
+  .image {
+    display: none;
+  }
 }
