@@ -90,3 +90,26 @@ svg {
     stroke-opacity: 1;
   }
 }
+
+/* make it responsive */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    width: 80%;
+  }
+
+  p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    min-width: 10%;
+    max-width: 80%;
+  }
+  .active-slide {
+    margin: 2rem auto !important;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+  }
+}
